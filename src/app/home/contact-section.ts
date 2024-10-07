@@ -12,7 +12,7 @@ import { MatIconModule } from '@angular/material/icon';
  <div class="square fade-in z-10 absolute  mt-28 right-3/4   ">
    <mat-icon class="sm:mt-12 mat-icon-custom">phone</mat-icon>
    <p class="sm:mt-8 font-serif text-xs sm:text-xl ">SEND ME MESSAGE<p>
-   <a href="tel:+48123456789"><mat-icon class="mat-icon-custom2">arrow_right_alt</mat-icon></a>
+   <a href="tel:+48506594923"><mat-icon class="mat-icon-custom2">arrow_right_alt</mat-icon></a>
  </div>
  <div class="square  z-10 absolute  mt-28 left-1/2  transform -translate-x-1/2 ">
   <mat-icon class="sm:mt-12 mat-icon-custom">email</mat-icon>
