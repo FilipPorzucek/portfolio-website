@@ -106,6 +106,34 @@ styles:[ `
 
   </div>
 
+  <div class="  border-gray-500  border-4 sm:w-2/5 w-3/5  rounded-2xl font-serif text-center sm:ml-8  mt-8 flex flex-col items-center justify-center  ">
+  <p class="padding-10 text-gray-500 text-xl sm:text-3xl fade-in">PORTFOLIO-WEBSITE</p>
+  <p class="padding-10 text-base sm:text-xl text-gray-400 mt-3 fade-in">The page you are currently on presents me, my projects and my skills.</p>
+
+  <div [ngClass]="isContentVisible[3]? 'expand':'collapse' " class="padding-10 text-base sm:text-xl text-gray-400 transition-all duration-300 ease-in-out">The page was written in html css and javascript. 
+
+  Jest to w pełni responsywny projekt zbudowany przy użyciu Angulara do dynamicznego zarządzania treścią i stylizowany Tailwind CSS dla nowoczesnego, skalowalnego projektu. 
+
+Celem tego projektu jest zaprezentowanie mojego portfolio zawodowego, w tym szczegółowych opisów moich umiejętności, poprzednich projektów i certyfikatów, a także zapewnienie bezpośredniego sposobu skontaktowania się ze mną.  </div>
+    <section class="flex space-x-16">
+
+    <button [ngClass]="isContentVisible[3]? 'expand':'collapse'" class="sm:w-28 w-16 h-12 rounded-xl bg-gray-400 text-white mt-2" (click)="openLink(url6)"> link to code repository</button>
+    
+    </section>
+  
+  <button (click)="toggleContent(3)" class=" w-28 h-10 rounded-xl bg-purple-800 mt-4 text-white flex flex-col items-center justify-center mb-3" > {{this.isContentVisible[3] ? "VIEW LESS":"VIEW MORE"}}</button>
+  
+  <div class="w-full h-0.5 bg-gray-500"></div>
+
+  <div class="flex sm:space-x-24 space-x-9 mt-3 mb-3">
+  <img  class="h-12 sm:h-16  mt-1"src="assets/angular2.png"/>
+  <img class="h-12 sm:h-14" src="assets/tailwind.png"/>
+  <img class="h-12 sm:h-16" src="assets/typescript.png"/>
+
+  </div>
+
+  </div>
+
 
   
 
@@ -121,6 +149,7 @@ url2="https://github.com/FilipPorzucek/Develpmnet-Website";
 url3="https://filipporzucek.github.io/Develpmnet-Website/#";
 url4="https://filipporzucek.github.io/Game/";
 url5="https://github.com/FilipPorzucek/Game";
+url6="https://github.com/FilipPorzucek/portfolio-website";
 openLink(url:string) {
 window.open(url);
 }
