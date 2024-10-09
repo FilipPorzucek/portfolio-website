@@ -125,9 +125,9 @@ Celem tego projektu jest zaprezentowanie mojego portfolio zawodowego, w tym szcz
   
   <div class="w-full h-0.5 bg-gray-500"></div>
 
-  <div class="flex sm:space-x-24 space-x-9 mt-3 mb-3">
+  <div class="flex sm:space-x-24 space-x-4 mt-3 mb-3">
   <img  class="h-12 sm:h-16  mt-1"src="assets/angular2.png"/>
-  <img class="h-12 sm:h-14" src="assets/tailwind.png"/>
+  <img class="h-10 sm:h-14" src="assets/tailwind.png"/>
   <img class="h-12 sm:h-16" src="assets/typescript.png"/>
 
   </div>
