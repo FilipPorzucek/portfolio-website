@@ -109,7 +109,7 @@ styles:[ `
 
   <div class="  border-gray-500  border-4 sm:w-2/5 w-3/5  rounded-2xl font-serif text-center sm:ml-8  mt-8 flex flex-col items-center justify-center  ">
   <p class="padding-10 text-gray-500 text-xl sm:text-3xl fade-in">PORTFOLIO-WEBSITE</p>
-  <p class="padding-10 text-base sm:text-xl text-gray-400 mt-3 fade-in">The page you are currently on presents me, my projects and my skills.</p>
+  <p class="padding-10 text-base sm:text-xl text-gray-400 mt-3 fade-in">The responsive page you are currently viewing showcases my projects, skills, and introduces me.</p>
 
   <div [ngClass]="isContentVisible[3]? 'expand':'collapse' " class="padding-10 text-base sm:text-xl text-gray-400 transition-all duration-300 ease-in-out">The project was created in the Angular framework, using Tailwind CSS styling. The site contains numerous animations that increase its interactivity and improve the user experience.
      It allows downloading various files and freely navigating through its elements.  </div>
