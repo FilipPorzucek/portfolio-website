@@ -79,12 +79,13 @@ styles:[ `
 
   <div class="  border-gray-500  border-4 sm:w-2/5 w-3/5  rounded-2xl font-serif text-center sm:ml-36  mt-8 flex flex-col items-center justify-center  ">
   <p class="padding-10 text-gray-500 text-xl sm:text-3xl fade-in">MILLIONAIRES GAME</p>
-  <p class="padding-10 text-base sm:text-xl text-gray-400 mt-3 fade-in">A game created as a college project using many interesting mechanisms.</p>
+  <p class="padding-10 text-base sm:text-xl text-gray-400 mt-3 fade-in">A game created as a college project using many interesting mechanisms.Only on pc.</p>
 
-  <div [ngClass]="isContentVisible[2]? 'expand':'collapse' " class="padding-10 text-base sm:text-xl text-gray-400 transition-all duration-300 ease-in-out">The page was written in html css and javascript. 
+  <div [ngClass]="isContentVisible[2]? 'expand':'collapse' " class="padding-10 text-base sm:text-xl text-gray-400 transition-all duration-300 ease-in-out">The game was written in html css and typescript. 
 
-    We can add interesting offers and go to the subpage to calculate their rate. There are many interactions and animations. Offers are displayed in different ways such as API Data Fetching or 
-    data from the table   </div>
+  A project focused on mechanisms and action. Questions are randomly selected and will never be repeated during one game, because a table is created with questions that we have already seen and the algorithm compares these two tables and checks the questions that have already been used.
+   We can use different lifebuoys that will give us hints.
+   You can only use one lifebuoy during one question. In case of a wrong answer, the game ends and we have the opportunity to play again.   </div>
     <section class="flex space-x-16">
 
     <button [ngClass]="isContentVisible[2]? 'expand':'collapse'" class="sm:w-28 w-16 h-12 rounded-xl bg-gray-400 text-white mt-2" (click)="openLink(url5)"> link to code repository</button>
@@ -110,11 +111,8 @@ styles:[ `
   <p class="padding-10 text-gray-500 text-xl sm:text-3xl fade-in">PORTFOLIO-WEBSITE</p>
   <p class="padding-10 text-base sm:text-xl text-gray-400 mt-3 fade-in">The page you are currently on presents me, my projects and my skills.</p>
 
-  <div [ngClass]="isContentVisible[3]? 'expand':'collapse' " class="padding-10 text-base sm:text-xl text-gray-400 transition-all duration-300 ease-in-out">The page was written in html css and javascript. 
-
-  Jest to w pełni responsywny projekt zbudowany przy użyciu Angulara do dynamicznego zarządzania treścią i stylizowany Tailwind CSS dla nowoczesnego, skalowalnego projektu. 
-
-Celem tego projektu jest zaprezentowanie mojego portfolio zawodowego, w tym szczegółowych opisów moich umiejętności, poprzednich projektów i certyfikatów, a także zapewnienie bezpośredniego sposobu skontaktowania się ze mną.  </div>
+  <div [ngClass]="isContentVisible[3]? 'expand':'collapse' " class="padding-10 text-base sm:text-xl text-gray-400 transition-all duration-300 ease-in-out">The project was created in the Angular framework, using Tailwind CSS styling. The site contains numerous animations that increase its interactivity and improve the user experience.
+     It allows downloading various files and freely navigating through its elements.  </div>
     <section class="flex space-x-16">
 
     <button [ngClass]="isContentVisible[3]? 'expand':'collapse'" class="sm:w-28 w-16 h-12 rounded-xl bg-gray-400 text-white mt-2" (click)="openLink(url6)"> link to code repository</button>
@@ -129,6 +127,50 @@ Celem tego projektu jest zaprezentowanie mojego portfolio zawodowego, w tym szcz
   <img  class="h-12 sm:h-16  mt-1"src="assets/angular2.png"/>
   <img class="h-10 sm:h-14" src="assets/tailwind.png"/>
   <img class="h-12 sm:h-16" src="assets/typescript.png"/>
+
+  </div>
+
+  </div>
+  <div class="  border-gray-500  border-4 sm:w-2/5 w-3/5  rounded-2xl font-serif text-center sm:ml-36  mt-8 flex flex-col items-center justify-center  ">
+  <p class="padding-10 text-gray-500 text-xl sm:text-3xl fade-in"> LIBRARY MENAGER</p>
+  <p class="padding-10 text-base sm:text-xl text-gray-400 mt-3 fade-in">Project written in Java to support the library.</p>
+
+  <div [ngClass]="isContentVisible[4]? 'expand':'collapse' " class="padding-10 text-base sm:text-xl text-gray-400 transition-all duration-300 ease-in-out">The page was written in html css and javascript. 
+
+  
+  In the program we can create new publications. Delete them, sort them and save them to a file as well as download data from a file. The program handles errors. </div>
+    <section class="flex space-x-16">
+
+    <button [ngClass]="isContentVisible[4]? 'expand':'collapse'" class="sm:w-28 w-16 h-12 rounded-xl bg-gray-400 text-white mt-2" (click)="openLink(url7)"> link to code repository</button>
+    
+    </section>
+  
+  <button (click)="toggleContent(4)" class=" w-28 h-10 rounded-xl bg-purple-800 mt-4 text-white flex flex-col items-center justify-center mb-3" > {{this.isContentVisible[4] ? "VIEW LESS":"VIEW MORE"}}</button>
+  
+  <div class="w-full h-0.5 bg-gray-500"></div>
+
+  <div class="flex sm:space-x-24 space-x-9 mt-3 mb-3">
+  <img  class="h-12 sm:h-16  mt-1"src="assets/java.png"/>
+
+  </div>
+
+  </div>
+  <div class="  border-gray-500  border-4 sm:w-2/5 w-3/5  rounded-2xl font-serif text-center sm:ml-8  mt-8 flex flex-col items-center justify-center  ">
+  <p class="padding-10 text-gray-500 text-xl sm:text-3xl fade-in">MUSIC APPLICATION</p>
+  <p class="padding-10 text-base sm:text-xl text-gray-400 mt-3 fade-in">The project I'm currently working on</p>
+
+  <div [ngClass]="isContentVisible[5]? 'expand':'collapse' " class="padding-10 text-base sm:text-xl text-gray-400 transition-all duration-300 ease-in-out">
+
+  Cooming Soon  </div>
+    
+  
+  <button (click)="toggleContent(5)" class=" w-28 h-10 rounded-xl bg-purple-800 mt-4 text-white flex flex-col items-center justify-center mb-3" > {{this.isContentVisible[5] ? "VIEW LESS":"VIEW MORE"}}</button>
+  
+  <div class="w-full h-0.5 bg-gray-500"></div>
+
+  <div class="flex sm:space-x-24 space-x-4 mt-3 mb-3">
+  <img  class="h-12 sm:h-16  mt-1"src="assets/java.png"/>
+ 
 
   </div>
 
@@ -150,6 +192,7 @@ url3="https://filipporzucek.github.io/Develpmnet-Website/#";
 url4="https://filipporzucek.github.io/Game/";
 url5="https://github.com/FilipPorzucek/Game";
 url6="https://github.com/FilipPorzucek/portfolio-website";
+url7="https://github.com/FilipPorzucek/Java-library-menager-";
 openLink(url:string) {
 window.open(url);
 }

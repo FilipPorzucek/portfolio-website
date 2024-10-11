@@ -50,7 +50,7 @@ import { Url } from 'url';
    <mat-icon  class="mat-icon -mt-12 sm:-mt-8 fade-in">get_app</mat-icon>
   </div>
   <p class=" text-gray-500 sm:ml-2 mt-3 sm:mt-6 font-serif fade-in sm:text-xl text-base " >JAVA DEVELOPER</p>
-  <p class="w-48 text-sm sm:text-m  sm:ml-4 text-gray-400 text-center fade-in mb-4 sm:mb-0">certificate of completion of the java developer course</p>
+  <p class="w-48 text-sm sm:text-m  sm:ml-4 text-gray-400 text-center fade-in mb-4 sm:mb-0">I am in the process of completing a Java developer course</p>
   </div>
 
   <div class="flex flex-col items-center justify-center">
