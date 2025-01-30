@@ -73,7 +73,7 @@ onDownload: any;
 
 
 downloadPdf(){
-  const url='assets/cv.Filip.pdf';
+  const url='assets/cv.Filipv2.pdf';
   window.open(url,'_blank')
 }
 
